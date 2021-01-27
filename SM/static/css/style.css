@@ -1,0 +1,51 @@
+body {
+	font-family: lucida;
+}
+
+header {
+	height: auto;
+	padding: 10x 0;
+	border-bottom: 1px solid #0009;
+	position: relative;
+}
+
+header i.icon {
+	position: absolute;
+	right: 30px;
+	top: 32px;
+	z-index: 10;
+}
+
+header .logo h2 {
+	font-size: 35px;
+}
+
+header nav .nav-list {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 0;
+}
+
+header nav .nav-list .list a {
+	display: block;
+	padding: 15x 0;
+	margin: 9x 0;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+header nav .nav-list .list a:hover {
+	color: #7cb62f;
+}
+
+@media ( max-width :575px) {
+	header nav .nav-list {
+		display: block;
+		text-align: center;
+		padding: 0;
+	}
+	header .logo {
+		text-align: center;
+	}
+}

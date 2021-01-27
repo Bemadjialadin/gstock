@@ -1,0 +1,72 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family:"century gothic";
+}
+.box{
+	background: #1772a8;
+	height: 150px;
+	width: 100%;
+	border: 0.5px solid #1a3748;
+	text-align: center;
+	margin: auto;
+	color:#fff;
+}
+.box-in{
+	background: #1772a8;
+	height: 50px;
+	border: 0px;
+	width: 100%;
+	text-align: center;
+}
+.bar, .title{
+	background: #103d57;
+	height: 27px;
+	width: 100%;
+
+}
+.fieldBox{
+	background: #1772a8;
+	height: 50px;
+	top: 0px;
+	margin: 0px 10px 0px 10px;
+	padding-top:0px;
+}
+.labelField{
+	display: inline-grid;
+	width: 15%;
+	margin: 0px 0px 0px 10px;
+}
+.fieldText, .fieldNumber, .selectOption{
+	width:100%;
+	border-radius:5px 5px 5px 5px;
+	border:0px;
+	padding:0;
+	height:30px;
+}
+.labelText, .field{
+	margin:10px 0px 0px 0px;
+}
+#labelField{
+	margin: 0px 0px 0px 25px;
+}
+.pbtn{
+	position: absolute;
+	top:100px;
+}
+.input label, .input input{
+	font-size: 20px;
+}
+.radio label, .input input{
+	font-size: 20px;
+	margin: 0 5px 0 0;
+}
+.radio label{
+	margin: 0 10px 0 0;
+}
+.input input{
+	width: 50%;
+	padding-left: 10px;
+}
+

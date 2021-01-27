@@ -1,0 +1,35 @@
+*{
+	box-sizing:border-box;
+}
+.windows{
+	background:#1772aa;
+	position: relative !important;
+	width:99%;
+}
+.windows-header{
+	background:#beb;
+	padding:0%;
+	margin:0%;
+}
+.windows-bar, .windows-title{
+	background:#071c5c;
+	position:relative;
+	top:0%;
+	width: 100%;
+	height:30px;
+}
+.windows-title{
+	background:#c55;
+	width:50%;
+	margin:0% 25% 0% 25%;
+	text-align:center;
+	padding:0% 0% 2% 0%;
+}
+.windows-body{
+	background:#1772aa;
+}
+.windows-footer{
+	background:#c55;
+	width:100%;
+	height:10%;
+}

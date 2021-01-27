@@ -1,0 +1,33 @@
+.label , .btn1Hide{
+	display: block;
+}
+
+.loginHide , .passHide, .btnHide {
+	width:  50%;
+	margin: 3% auto;  
+} 
+
+.btn1Hide ,  .btn2Hide, .submit{
+	width: 100%;
+	padding: 2%;
+}
+.submit{
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+
+legend {
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+
+legend, .label{
+	font-family: 'century gothic', sans-serif , monospace;
+}
+
+
+input[type= submit], input[type=reset] , .btn{
+	background: #1772aa;
+}
